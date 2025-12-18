@@ -1,4 +1,12 @@
-Lib/ 
-__pycache__/ 
-*.pyc 
-simsun.ttc 
+# Python
+Lib/
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db

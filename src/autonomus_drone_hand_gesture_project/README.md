@@ -1,6 +1,6 @@
 # 手势控制无人机项目
 
-这是一个使用手势控制AirSim无人机的示例程序，支持真实AirSim控制和模拟控制两种模式。
+这是一个使用手势控制AirSim无人机的示例程序，支持真机AirSim控制和模拟控制两种模式。
 
 ## 项目特点
 - 使用MediaPipe进行实时手势识别
@@ -19,4 +19,4 @@
 
 ### 1. 安装Python依赖
 ```bash
-pip install opencv-python mediapipe numpy
+pip install opencv-python mediapipe numpy tensorflow==2.10.0
